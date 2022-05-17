@@ -1,5 +1,5 @@
  
- body, html{ 
+ 
  body, html{
      background-color: rgb(15, 15, 15);
      margin: 0;
@@ -11,12 +11,52 @@
  body {
   padding: 0;
   margin: 0;
+  
 }
  
   .fami h3{
    color: rgb(22, 21, 21);
    
  }
+ .planom{
+   top: 10px;
+   position: relative;
+   color: #eceaea;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   left: 35px;
+   text-align: center;
+
+ }
+ .TesteG{
+   text-align: center;
+   
+ }
+ .cartao h5{
+   text-align: center;
+ }
+ .cartao{
+   top: 150px;
+   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+   position: absolute;
+   opacity: 100%;
+   width: 250px;
+   height: 450px;
+   border-radius: 20px;
+   background: linear-gradient(90deg, rgb(189, 5, 235) 0%, rgba(9,9,121,1) 35%, rgb(30, 31, 31) 100%);
+
+ }
+ .container2{
+  height: 100%;
+  width: 1000px;
+  left: 100px;
+  top: 1200px ;
+  position: absolute;
+  align-items: center;
+
+ }
+ 
 
  .container{
   
@@ -311,7 +351,5 @@ transition: 1s;
           
           
 
-
-          
 
           
